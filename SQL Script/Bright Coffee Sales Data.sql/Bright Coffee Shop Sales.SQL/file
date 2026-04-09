@@ -1,10 +1,14 @@
-select * from `workspace`.`default`.`brightlearncoffeeshopsales` limit 100;
+
+
+
 
 
 ------------------------------------------------------
 -- COFFEE SHOP CODING
 -----------------------------------------------------
 -- 1. Checking rows and columns of the table
+SELECT * 
+From `workspace`.`default`.`brightlearncoffeeshopsales` limit 100;
 
 SELECT *
 FROM workspace.default.brightlearncoffeeshopsales;
@@ -86,8 +90,7 @@ Monthname(transaction_date) AS month_name
 FROM workspace.default.brightlearncoffeeshopsales;
 
 
---12.Combine functions to get enhanced data set
-SELECT 
+--12.Combine functions to get enhanced data set 6 more columns created to get more insights of the case study 
 transaction_date,
 transaction_time,
 transaction_qty,
